@@ -1,0 +1,22 @@
+{
+  "name": "smart-canteen-and-waiting-system",
+  "version": "1.0.0",
+  "description": "AI-Based SmartQueue and Waiting Time Prediction System for College Canteen",
+  "scripts": {
+    "start": "cmd /c start.bat",
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "test": "node test/test_e2e.js"
+  },
+  "keywords": [
+    "smart-queue",
+    "canteen-management",
+    "waiting-time-prediction",
+    "queue-theory",
+    "react",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT"
+}
